@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root{
+  --main-red:rgb(145, 0, 0);
+}
+.wraper {
+  width: 1000px;
+  background-color: rgb(3, 54, 54);
+  margin: 100px auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 10px;
+}
+.box{
+  background-color: var(--main-red);
+}
+.box1 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 6;
+  border-radius: 15px;
+}
+.box2 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 6;
+  border-radius: 15px;
+}
+.box3 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 3;
+  border-radius: 15px;
+}
+.box4 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 3;
+  border-radius: 15px;
+}
+.box5 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 3;
+  border-radius: 15px;
+}
+.box6 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 3; 
+  border-radius: 15px;
+}
+.box7 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 4;
+  border-radius: 15px;
+}
+.box8 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 4;
+  border-radius: 15px;
+}
+.box9 {
+  height: 10vh;  
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 4;
+  border-radius: 15px;
+}
+.box10 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 12;
+  border-radius: 15px;
+}
+.box11 {
+  border: 3px solid rgb(0, 0, 0);
+  height: 10vh;
+  grid-column: span 2;
+  border-radius: 15px;
+}
+.box12 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 2;
+  border-radius: 15px;
+}
+.box13 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 2;
+  border-radius: 15px;
+}
+.box14 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 2;
+  border-radius: 15px;
+}
+.box15 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 2;
+  border-radius: 15px;
+}
+.box16 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 2;
+  border-radius: 15px;
+}
+.box17 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 6;
+  border-radius: 15px;
+}
+.box18 {
+  height: 10vh;
+  border: 3px solid rgb(0, 0, 0);
+  grid-column: span 6;
+  border-radius: 15px;
+}
